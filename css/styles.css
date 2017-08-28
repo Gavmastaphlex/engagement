@@ -1,0 +1,302 @@
+
+@font-face {
+  font-family: 'Courgette';
+  src: url('../fonts/Courgette-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Damion';
+  src: url('../fonts/Damion-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'Great_Vibes';
+  src: url('../fonts/GreatVibes-Regular.ttf');
+}
+
+
+html { 
+  background: url('../images/background2.jpg') no-repeat top center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  margin:0 0 0 0;
+}
+
+#content {
+  max-width:100%;
+	padding-top:225px;
+  padding-bottom:30px;
+	width:860px;
+	margin:0 auto;
+	text-align: center;
+  font-size:30px;
+	color:white;
+  font-family: 'Damion';
+}
+
+#names {
+  font-size:50px!important;
+  font-family: 'Great_Vibes'!important;
+  color: #FFEC80;
+}
+
+#invite {
+  font-size:35px!important;
+  font-family: 'Courgette'!important;
+  margin:10px 0px 5px;
+
+}
+
+.rsvp-option:hover {
+  text-decoration: underline;
+  cursor: hand;
+  cursor: pointer;
+}
+
+#rsvp-details {
+  border: solid 2px #FFF;
+  padding:20px 0px 0px;
+  width:700px;
+  margin:20px auto 0px;
+}
+
+#map {
+  color: white;
+  text-decoration: none;
+} 
+
+#map:hover {
+  text-decoration: underline;
+} 
+
+.selected {
+  color: #FFEC80;
+}
+
+.hiddenSection {
+  display:none;
+  margin-bottom:15px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top:10px;
+}
+
+.error {
+  color:red;
+  font-family: arial;
+  font-size:16px;
+  font-style: italic;
+  margin:0px 0px 7px;
+}
+
+#submitButton {
+  margin-top:18px;
+  padding:3px 8px 5px 4px;
+  border: solid 3px #FFF;
+  border-radius:10px;
+  width:105px;
+  text-align: center;
+  cursor: hand;
+  cursor: pointer;
+  margin:0 auto;
+}
+
+@media screen and (min-width: 2200px) {
+    #content {
+        padding-top:375px;
+    }
+}
+
+@media screen and (max-width: 2199px) and (min-width: 2100px) {
+    #content {
+        padding-top:358px;
+    }
+}
+
+@media screen and (max-width: 2099px) and (min-width: 2000px) {
+    #content {
+        padding-top:341px;
+    }
+}
+
+@media screen and (max-width: 1999px) and (min-width: 1900px) {
+    #content {
+        padding-top:324px;
+    }
+}
+
+@media screen and (max-width: 1899px) and (min-width: 1800px) {
+    #content {
+        padding-top:307px;
+    }
+}
+
+@media screen and (max-width: 1799px) and (min-width: 1700px) {
+    #content {
+        padding-top:290px;
+    }
+}
+
+@media screen and (max-width: 1699px) and (min-width: 1600px) {
+    #content {
+        padding-top:273px;
+    }
+}
+
+@media screen and (max-width: 1599px) and (min-width: 1500px) {
+    #content {
+        padding-top:256px;
+    }
+}
+
+@media screen and (max-width: 1499px) and (min-width: 1400px) {
+    #content {
+        padding-top:239px;
+    }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1300px) {
+    #content {
+        padding-top:222px;
+    }
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1200px) {
+    #content {
+        padding-top:215px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1100px) {
+    #content {
+        padding-top:198px;
+    }
+}
+
+@media screen and (max-width: 1099px) and (min-width: 1000px) {
+    #content {
+        padding-top:181px;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 900px) {
+    #content {
+        padding-top:164px;
+    }
+}
+
+/* -------------------------------------------------------------*/
+/* -------------Anything beow here needs to---------------------*/
+/*------be altered to allow the text to be visible------------- */
+/* ------------------------------------------------------------ */
+
+
+
+@media screen and (max-width: 899px) and (min-width: 800px) {
+
+      #content {
+        padding-top:147px;
+        font-size:30px;
+      }
+
+      #names {
+        font-size:50px!important;
+      }
+
+      #invite {
+        font-size:35px!important;
+        margin:10px 0px 5px;
+
+      }
+
+      #rsvp-details {
+        max-width:90%;
+      }
+
+
+      .error {
+        font-size:16px;
+        margin:0px 0px 7px;
+      }
+
+      #makeItTitle {
+        display: none;
+      }
+
+}
+
+@media screen and (max-width: 799px) and (min-width: 700px) {
+    #content {
+        padding-top:120px;
+        font-size:25px;
+      }
+
+      #names {
+        font-size:35px!important;
+      }
+
+      #invite {
+        font-size:20px!important;
+        margin:10px 0px 5px;
+
+      }
+
+      #rsvp-details {
+        max-width:90%;
+      }
+
+      .error {
+        font-size:15px;
+        margin:0px 0px 7px;
+      }
+
+      #makeItTitle {
+        display: none;
+      }
+    
+}
+
+@media screen and (max-width: 699px) {
+    #content {
+        padding-top:103px;
+        font-size:20px;
+      }
+
+      #names {
+        font-size:30px!important;
+      }
+
+      #invite {
+        font-size:15px!important;
+        margin:10px 0px 5px;
+
+      }
+
+      #rsvp-details {
+        max-width:90%;
+      }
+
+
+      .error {
+        font-size:10px;
+        margin:0px 0px 7px;
+      }
+
+      #makeItTitle {
+        display: none;
+      }
+    
+}
