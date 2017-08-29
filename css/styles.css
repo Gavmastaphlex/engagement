@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Julius+Sans+One|Katibeh|Overlock+SC|Simonetta');
+
 @font-face {
   font-family: 'Courgette';
   src: url('../fonts/Courgette-Regular.ttf');
@@ -17,7 +19,7 @@
 
 
 html { 
-  background: url('../images/background2.jpg') no-repeat top center; 
+  background: url('../images/background.jpg') no-repeat top center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,6 +40,7 @@ p {
   font-size:30px;
 	color:white;
   font-family: 'Damion';
+
 }
 
 #names {
@@ -114,87 +117,16 @@ input[type=submit] {
   margin:0 auto;
 }
 
-@media screen and (min-width: 2200px) {
+@media screen and (min-width: 1500px) {
     #content {
-        padding-top:375px;
+        padding-top:90px;
     }
 }
 
-@media screen and (max-width: 2199px) and (min-width: 2100px) {
-    #content {
-        padding-top:358px;
-    }
-}
 
-@media screen and (max-width: 2099px) and (min-width: 2000px) {
+@media screen and (max-width: 1499px) and (min-width: 900px) {
     #content {
-        padding-top:341px;
-    }
-}
-
-@media screen and (max-width: 1999px) and (min-width: 1900px) {
-    #content {
-        padding-top:324px;
-    }
-}
-
-@media screen and (max-width: 1899px) and (min-width: 1800px) {
-    #content {
-        padding-top:307px;
-    }
-}
-
-@media screen and (max-width: 1799px) and (min-width: 1700px) {
-    #content {
-        padding-top:290px;
-    }
-}
-
-@media screen and (max-width: 1699px) and (min-width: 1600px) {
-    #content {
-        padding-top:273px;
-    }
-}
-
-@media screen and (max-width: 1599px) and (min-width: 1500px) {
-    #content {
-        padding-top:256px;
-    }
-}
-
-@media screen and (max-width: 1499px) and (min-width: 1400px) {
-    #content {
-        padding-top:239px;
-    }
-}
-
-@media screen and (max-width: 1399px) and (min-width: 1300px) {
-    #content {
-        padding-top:222px;
-    }
-}
-
-@media screen and (max-width: 1299px) and (min-width: 1200px) {
-    #content {
-        padding-top:215px;
-    }
-}
-
-@media screen and (max-width: 1199px) and (min-width: 1100px) {
-    #content {
-        padding-top:198px;
-    }
-}
-
-@media screen and (max-width: 1099px) and (min-width: 1000px) {
-    #content {
-        padding-top:181px;
-    }
-}
-
-@media screen and (max-width: 999px) and (min-width: 900px) {
-    #content {
-        padding-top:164px;
+        padding-top:40px;
     }
 }
 
@@ -208,7 +140,7 @@ input[type=submit] {
 @media screen and (max-width: 899px) and (min-width: 800px) {
 
       #content {
-        padding-top:147px;
+        padding-top:40px;
         font-size:30px;
       }
 
@@ -240,7 +172,7 @@ input[type=submit] {
 
 @media screen and (max-width: 799px) and (min-width: 700px) {
     #content {
-        padding-top:120px;
+        padding-top:60px;
         font-size:25px;
       }
 
@@ -271,7 +203,7 @@ input[type=submit] {
 
 @media screen and (max-width: 699px) {
     #content {
-        padding-top:103px;
+        padding-top:60px;
         font-size:20px;
       }
 
